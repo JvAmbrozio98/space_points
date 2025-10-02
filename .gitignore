@@ -1,0 +1,8 @@
+.env
+.venv
+__pycache__
+primeiro_teste.csv
+rascunho.py
+sample_extract.py
+.streamlit/secrets.toml
+.streamlit/*
