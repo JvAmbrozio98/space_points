@@ -117,8 +117,8 @@ st.header('Geopoints Statistics')
 
 with st.form("Entrada de coordenadas"):
     nome_do_tile = st.text_input(label='Digite o nome da regiao')
-    longitude = st.number_input(label="Digite a longitude do ponto a ser analisado",step=0.0001,format="%.4f")
-    latitude = st.number_input(label='Digite a latitude do ponto a ser analisado',step=0.0001,format="%.4f")
+    longitude = st.number_input(label="Digite a longitude do ponto a ser analisado",step=0.0001,format="%.7f")
+    latitude = st.number_input(label='Digite a latitude do ponto a ser analisado',step=0.0001,format="%.7f")
     raio = st.number_input(label="Digite o tamanho da circunferencia a ser criada ao redor do ponto")
     data_inicial = st.date_input(label="Digite a data inicial")
     data_final = st.date_input(label="Digite a  data final")
